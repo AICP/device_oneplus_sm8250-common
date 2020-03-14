@@ -1,2 +1,6 @@
 # Google Assistant
 ro.opa.eligible_device=true
+
+# Enable blurs, hidden under dev option
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
