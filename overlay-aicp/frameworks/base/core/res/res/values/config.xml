@@ -112,9 +112,6 @@
     <!-- Screen off delay -->
     <integer name="config_screen_off_delay">0</integer>
 
-    <!-- Display has physical cutout -->
-    <bool name="config_physicalDisplayCutout">true</bool>
-
     <!-- Paths to fast charging status file to detect whether an oem fast charger is active -->
     <string-array name="config_oemFastChargerStatusPaths" translatable="false">
       /sys/class/power_supply/battery/fastchg_status
