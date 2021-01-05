@@ -29,3 +29,6 @@ type sysfs_info, fs_type, sysfs_type;
 
 # Color Modes
 type sysfs_color, fs_type, sysfs_type;
+
+# Fingerprint
+type vendor_persist_fingerprint_file, file_type;
