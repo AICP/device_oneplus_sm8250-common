@@ -65,4 +65,10 @@
     <integer name="config_sysBatteryTempMultiplier">10</integer>
     <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
     <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+
+    <!-- Enable SMS authorization framework. -->
+    <bool name="config_sms_authorization_enabled">true</bool>
+
+    <!-- The duration (in milliseconds) for the outgoing SMS authorization request to timeout.-->
+    <integer name="config_sms_authorization_timeout_ms">15000</integer>
 </resources>
