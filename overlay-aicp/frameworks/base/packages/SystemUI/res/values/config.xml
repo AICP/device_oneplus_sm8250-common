@@ -33,4 +33,7 @@
     <integer name="config_qs_rows_portrait">4</integer>
     <integer name="config_qs_columns_landscape">5</integer>
     <integer name="config_qs_rows_landscape">2</integer>
+
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
 </resources>
