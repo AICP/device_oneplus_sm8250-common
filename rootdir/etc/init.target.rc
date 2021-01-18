@@ -163,7 +163,7 @@ chmod 0660 /proc/rpmh_modem/sleepinfo
 
     # Reduce default vibrator gain from 0x80 to 0x55,
     # also allow gain customization via persistent property
-    write /sys/class/leds/vibrator/gain ${persist.vendor.vib.gain:-0x55}
+    write /sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/gain ${persist.vendor.vib.gain:-0x55}
 
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
