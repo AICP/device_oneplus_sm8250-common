@@ -26,3 +26,6 @@ type vendor_sysfs_video_call_on, fs_type, sysfs_type;
 
 # AICP
 type sysfs_info, fs_type, sysfs_type;
+
+# Color Modes
+type sysfs_color, fs_type, sysfs_type;
