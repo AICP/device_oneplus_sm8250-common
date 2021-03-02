@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="configs_device">
+        <!-- Hide Navigation handle on lockscreen -->
+        <item>systemui/nav_bar_handle_show_over_lockscreen=true</item>
+    </string-array>
+</resources>
