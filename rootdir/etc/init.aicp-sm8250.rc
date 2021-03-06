@@ -75,6 +75,20 @@ on boot
     chown system system /sys/kernel/gpu/gpu_busy
     chmod 0664 /sys/kernel/gpu/gpu_busy
 
+    # Battery Health
+    chown system system /sys/class/power_supply/bms/charge_full
+    chmod 0644 /sys/class/power_supply/bms/charge_full
+    chown system system /sys/class/power_supply/bms/charge_full_design
+    chmod 0644 /sys/class/power_supply/bms/charge_full_design
+    chown system system /sys/class/power_supply/bms/cycle_counts
+    chmod 0644 /sys/class/power_supply/bms/cycle_counts
+    chown system system /sys/class/power_supply/bms/charge_counter
+    chmod 0644 /sys/class/power_supply/bms/charge_counter
+    chown system system /sys/class/power_supply/bms/battery_health
+    chmod 0644 /sys/class/power_supply/bms/battery_health
+    chown system system /sys/class/power_supply/bms/battery_type
+    chmod 0644 /sys/class/power_supply/bms/battery_type
+
 on post-fs
     # Vibration
     chown system system /sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level
