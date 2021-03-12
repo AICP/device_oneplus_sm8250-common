@@ -31,4 +31,5 @@ set_prop(vendor_qti_init_shell, ctl_stop_prop)
 set_prop(vendor_qti_init_shell, vendor_memplus_prop)
 set_prop(vendor_qti_init_shell, vendor_set_wlan_prop)
 
+allow vendor_qti_init_shell self:capability kill;
 dontaudit vendor_qti_init_shell self:capability { dac_read_search };
