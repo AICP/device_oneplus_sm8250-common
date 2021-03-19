@@ -30,7 +30,7 @@ namespace V2_1 {
 namespace implementation {
 
 static constexpr const char* kDisplayModeProp = "vendor.display.mode";
-static const std::string kModeBasePath = "/sys/class/drm/card0-DSI-1/";
+static const std::string kModeBasePath = "/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/";
 static const std::string kDefaultPath = "/data/vendor/display/default_display_mode";
 
 const std::map<int32_t, DisplayModes::ModeInfo> DisplayModes::kModeMap = {
