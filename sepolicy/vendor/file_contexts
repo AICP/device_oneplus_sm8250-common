@@ -114,3 +114,6 @@
 
 # AICP - Vibrator
 /sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level                                              u:object_r:sysfs_leds:s0
+
+# AICP - QS Sys UI Info
+/sys/kernel/gpu(/.*)?                                                                                                                             u:object_r:sysfs_info:s0

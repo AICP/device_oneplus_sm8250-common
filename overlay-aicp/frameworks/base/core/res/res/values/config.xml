@@ -57,4 +57,12 @@
          0: Left side
          1: Right side -->
     <integer name="config_alertSliderLocation">1</integer>
+
+    <!-- QS Header System info -->
+    <string name="config_sysCPUTemp">/sys/devices/virtual/thermal/thermal_zone0/temp</string>
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <string name="config_sysBatteryTemp">/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/battery/temp</string>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
+    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
 </resources>

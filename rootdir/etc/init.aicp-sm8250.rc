@@ -59,6 +59,22 @@ on boot
     chmod 0660 /proc/touchpanel/single_tap_enable
     chown system system /proc/touchpanel/single_tap_enable
 
+    # AICP QS SystemUI Info (config_sysCPUTemp)
+    chown system system /sys/devices/virtual/thermal/thermal_zone0/temp
+    chmod 0664 /sys/devices/virtual/thermal/thermal_zone0/temp
+
+    # AICP QS SystemUI Info (config_sysBatteryTemp)
+    chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/battery/temp
+    chmod 0664 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/battery/temp
+
+    # AICP QS SystemUI Info (config_sysGPUFreq)
+    chown system system /sys/kernel/gpu/gpu_clock
+    chmod 0664 /sys/kernel/gpu/gpu_clock
+
+    # AICP QS SystemUI Info (config_sysGPULoad)
+    chown system system /sys/kernel/gpu/gpu_busy
+    chmod 0664 /sys/kernel/gpu/gpu_busy
+
 on post-fs
     # Vibration
     chown system system /sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level
