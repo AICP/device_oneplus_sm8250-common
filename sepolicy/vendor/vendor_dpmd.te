@@ -1,0 +1,2 @@
+allow vendor_dpmd vendor_default_prop:file { getattr map open read };
+get_prop(vendor_dpmd, vendor_default_prop)
