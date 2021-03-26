@@ -1,5 +1,6 @@
 # Allow system_server to read and write dynamic FPS
 allow system_server sysfs_dm:file { getattr open read };
+allow system_server sysfs_dm:file write;
 
 # Allow system_server to read Fast Charging status
 allow system_server app_zygote:process getpgid;
