@@ -1,0 +1,64 @@
+on fs
+    chmod 0666 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm
+    chmod 0666 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm_brightness
+
+on boot
+    # FPS measurement
+    chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
+    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+
+    #dynamic FPS display path
+    chmod 0666 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dynamic_fps
+    chown system system /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dynamic_fps
+
+    # High Brightness Mode path
+    chmod 0666 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm
+    chown system system /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm
+
+    chmod 0666 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm_brightness
+    chown system system /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm_brightness
+
+    # Backlight dimmer path
+    chmod 0666 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en
+    chown system system /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en
+
+    # Touchscreen
+    chmod 0660 /proc/touchpanel/double_tap_enable
+    chown system system /proc/touchpanel/double_tap_enable
+
+    chmod 0660 /proc/touchpanel/letter_m_enable
+    chown system system /proc/touchpanel/letter_m_enable
+
+    chown system system /proc/touchpanel/letter_o_enable
+    chmod 0660 /proc/touchpanel/letter_o_enable
+
+    chmod 0660 /proc/touchpanel/letter_s_enable
+    chown system system /proc/touchpanel/letter_s_enable
+
+    chmod 0660 /proc/touchpanel/letter_w_enable
+    chown system system /proc/touchpanel/letter_w_enable
+
+    chmod 0660 /proc/touchpanel/music_enable
+    chown system system /proc/touchpanel/music_enable
+
+    chmod 0660 /proc/touchpanel/double_swipe_enable
+    chown system system /proc/touchpanel/double_swipe_enable
+
+    chown system system /proc/touchpanel/up_arrow_enable
+    chmod 0660 /proc/touchpanel/up_arrow_enable
+
+    chmod 0660 /proc/touchpanel/down_arrow_enable
+    chown system system /proc/touchpanel/down_arrow_enable
+
+    chmod 0660 /proc/touchpanel/left_arrow_enable
+    chown system system /proc/touchpanel/left_arrow_enable
+
+    chmod 0660 /proc/touchpanel/right_arrow_enable
+    chown system system /proc/touchpanel/right_arrow_enable
+
+    chmod 0660 /proc/touchpanel/single_tap_enable
+    chown system system /proc/touchpanel/single_tap_enable
+
+on post-fs
+    # Vibration
+    chown system system /sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level

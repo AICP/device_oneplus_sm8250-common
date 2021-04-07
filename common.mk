@@ -223,7 +223,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     vendor.oem_ftm.rc \
-    vendor.oem_ftm_svc_disable.rc
+    vendor.oem_ftm_svc_disable.rc \
+    init.aicp-sm8250.rc
 
 # Component overrides
 PRODUCT_COPY_FILES += \
@@ -436,7 +437,6 @@ PRODUCT_COPY_FILES += \
 
 # tri-state-key
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key_daemon
 
 # Trust HAL
