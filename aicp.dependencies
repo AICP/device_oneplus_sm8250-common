@@ -15,7 +15,8 @@
     "branch":      "r11.1"
   },
   {
-    "repository":  "AICP/proprietary_vendor_oneplus",
+    "remote":      "gitlab",
+    "repository":  "hermesconrad/vendor/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch":      "r11.1"
   }
