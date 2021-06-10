@@ -143,6 +143,9 @@ vendor.display.enable_posted_start_dyn=1
 vendor.display.use_layer_ext=1
 vendor.display.use_smooth_motion=1
 
+# Dolby
+ro.vendor.dolby.dax.version=DAX3_3.5.1.28_r1
+
 # DRM
 drm.service.enabled=true
 
@@ -193,14 +196,14 @@ debug.stagefright.omx_default_rank=0
 # NFC
 ro.camera.notify_nfc=1
 
+# OnePlus
+vendor.product.manufacturer=OPD
+
 # OTG
 persist.sys.oem.otg_support=true
 
 # PASR
 vendor.power.pasr.enabled=false
-
-# OnePlus
-vendor.product.manufacturer=OPD
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
