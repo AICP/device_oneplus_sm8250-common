@@ -30,6 +30,9 @@ $(call inherit-product, device/oneplus/settings/settings.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# OnePlus Camera
+$(call inherit-product-if-exists, vendor/opcamera/opcamera-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
