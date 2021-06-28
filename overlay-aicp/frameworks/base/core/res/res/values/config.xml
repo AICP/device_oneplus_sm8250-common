@@ -108,4 +108,7 @@
 
     <!-- Specifies the maximum burn-in offset vertically. -->
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+
+    <!-- Screen off delay -->
+    <integer name="config_screen_off_delay">0</integer>
 </resources>
