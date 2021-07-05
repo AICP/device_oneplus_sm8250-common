@@ -347,7 +347,7 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# Dolby - from OOS 10.5.11 OnePlus8Oxygen_15.I.20_GLO_020_2008080048
+# Dolby - from OnePlus8Oxygen_15.I.20_GLO_020_2008080048
 system/lib64/vendor.dolby.hardware.dms@2.0.so|116204b22d82ab19c9a58b2206b5f7a01f401cc4
 -system_ext/priv-app/DaxUI/DaxUI.apk|905916f2624e3c4dbed1e86256b7edca0ae5eb9a
 -system_ext/priv-app/daxService/daxService.apk|52f4deff3fb440c33b8d41fbbc7c9f36ba74b0a4
@@ -386,6 +386,10 @@ vendor/lib64/soundfx/libswvqe.so|fa4082e95c001742746d29c6f76442086e2c9880
 vendor/lib64/soundfx/libswgamedap.so|0491096a45e14d8097ceb80c15c0f946bbade389
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so|75ef7572ca01b3fbc74132613d9fea9394eaabc3
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|97daad5705c2054ce00ea3d7caf6fe8bd514d8ad
+
+# Dolby - from OnePlus9ROxygen_13.I.04_OTA_0040_all_2105290149_3f45a99b8c1a43eb
+vendor/lib/soundfx/libswgamedap.so|a4d17b610b5cd873bd82c28f7361ba66a5d2c48e
+vendor/lib64/soundfx/libswgamedap.so|0491096a45e14d8097ceb80c15c0f946bbade389
 
 # DPM
 system/framework/tcmclient.jar
