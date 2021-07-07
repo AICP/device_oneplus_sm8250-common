@@ -3,8 +3,14 @@ allow system_server sysfs_dm:file { getattr open read };
 allow system_server sysfs_dm:file write;
 
 # Allow system_server to read Fast Charging status
-allow system_server app_zygote:process getpgid;
 allow system_server vendor_sysfs_battery_supply:file { getattr open read };
 
 # Allow system server to read system_wakeup nodes
 allow system_server sysfs_wakeup:file { getattr open read };
+
+# OpCamera rules
+allow system_server hal_cameraHIDL_hwservice:hwservice_manager find;
+binder_call(system_server, hal_cameraHIDL_default)
+
+allow system_server app_zygote:process { getattr getpgid };
+allow system_server aicp_data_file:file r_file_perms;
