@@ -18,3 +18,6 @@ allow system_app apk_data_file:dir write;
 allow system_app hal_cameraHIDL_hwservice:hwservice_manager find;
 allow system_app oem_service:service_manager find;
 binder_call(system_app, hal_cameraHIDL_default)
+
+allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file { read open };
