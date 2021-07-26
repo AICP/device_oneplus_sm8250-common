@@ -358,8 +358,8 @@ system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|7690774632fe32269657fc1
 system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|f647356bd3a4bb4174e873e4544c2921d51fd4d2
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|2f749d78fe168401506110ce1fbdaf6de21a913a
 vendor/etc/media_codecs_dolby_audio.xml|8964c37503282a1430fec616b4c873ec786f3ce0
-vendor/etc/dolby/dax-default.xml|f01f0c139d9c6d9e8fc8352ada830f654b849d22
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/etc/dolby/dax-default.xml|9f6ae71a7a0f2c6e9144540a4c678e995e6fe0de
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
 vendor/lib/libdapparamstorage.so|366b2221865b74faa1a7fb2b40da3765a8f35564
 vendor/lib/libdeccfg.so|3db99c0c21f1d05b3b627c1b160736a314a4f324
 vendor/lib/libqtigef.so|2b06098cb0c447c5c84977b24e922cd0240c3898
