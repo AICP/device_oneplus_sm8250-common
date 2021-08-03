@@ -6,4 +6,5 @@ allow system_server sysfs_dm:file write;
 allow system_server app_zygote:process getpgid;
 allow system_server vendor_sysfs_battery_supply:file { getattr open read };
 
+# Allow system server to read system_wakeup nodes
 allow system_server sysfs_wakeup:file { getattr open read };

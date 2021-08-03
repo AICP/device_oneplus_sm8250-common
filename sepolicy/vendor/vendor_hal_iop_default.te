@@ -1,1 +1,0 @@
-allow vendor_hal_iop_default self:capability sys_admin;
