@@ -26,6 +26,8 @@ allow platform_app adsprpcd_file:dir { search getattr read };
 dontaudit platform_app mnt_vendor_file:dir search;
 dontaudit platform_app vendor_hal_camera_postproc_hwservice:hwservice_manager find;
 
+allow platform_app vendor_default_prop:file { getattr map open };
+
 get_prop(platform_app, ctl_default_prop)
 allow platform_app vendor_camera_data_file:dir getattr;
 binder_call(platform_app, hal_camera_default)
