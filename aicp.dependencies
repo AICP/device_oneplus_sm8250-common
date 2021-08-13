@@ -5,13 +5,19 @@
     "branch":      "r11.1"
   },
   {
-    "repository":  "LineageOS/android_device_oneplus_common",
+    "repository":  "AICP/device_oneplus_common",
     "target_path": "device/oneplus/common",
-    "branch":      "lineage-18.1"
+    "branch":      "r11.1"
   },
   {
     "repository":  "AICP/kernel_oneplus_sm8250",
     "target_path": "kernel/oneplus/sm8250",
     "branch":      "r11.1"
+  },
+  {
+    "remote":      "gitlab",
+    "repository":  "hermesconrad/vendor/vendor_opcamera",
+    "target_path": "vendor/opcamera",
+    "branch":      "r11.1-oneplus8"
   }
 ]
