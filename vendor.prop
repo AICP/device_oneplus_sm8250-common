@@ -138,8 +138,8 @@ vendor.display.disable_scaler=0
 vendor.display.enable_async_powermode=0
 vendor.display.enable_optimize_refresh=1
 vendor.display.enable_posted_start_dyn=1
-vendor.display.use_layer_ext=1
-vendor.display.use_smooth_motion=1
+vendor.display.use_layer_ext=0
+vendor.display.use_smooth_motion=0
 
 # Dolby
 ro.vendor.dolby.dax.version=DAX3_3.5.1.28_r1
