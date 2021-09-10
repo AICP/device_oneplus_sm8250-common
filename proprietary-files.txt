@@ -266,7 +266,7 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 
 # Dolby
-odm/etc/dolby/dax-default.xml
+odm/etc/dolby/dax-default.xml|d2c251b1c428b2933ac2fb0f165ee6df4111b0e2
 odm/etc/media_codecs_dolby_audio.xml:vendor/etc/media_codecs_dolby_audio.xml
 system/lib64/vendor.dolby.hardware.dms@2.0.so
 -system_ext/app/OPOnlineConfig/OPOnlineConfig.apk
