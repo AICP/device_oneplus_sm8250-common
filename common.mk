@@ -397,8 +397,7 @@ PRODUCT_BOOT_JARS += \
 
 # OnePlus overseas permissions
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/com.oneplus.software.overseas.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oneplus.software.overseas.xml \
-    $(LOCAL_PATH)/configs/com.oneplus.software.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oneplus.software.xml
+    $(LOCAL_PATH)/configs/com.oneplus.software.overseas.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oneplus.software.overseas.xml
 
 # Power
 PRODUCT_PACKAGES += \
