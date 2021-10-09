@@ -215,8 +215,11 @@
 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dynamic_fps                                  u:object_r:sysfs_dm:s0
 /sys/class/drm/sde-crtc-0/measured_fps                                                                             u:object_r:sysfs_dm:s0
 
+# AICP - PartsBin Force Game Mode
+/proc/touchpanel/force_game_switch_enable                                                                          u:object_r:proc_touchpanel:s0
+
 # AICP - Vibrator
 /sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level                                              u:object_r:sysfs_leds:s0
 
 # AICP - QS Sys UI Info
-/sys/kernel/gpu(/.*)?                                                                                                                             u:object_r:sysfs_info:s0
+/sys/kernel/gpu(/.*)?                                                                                              u:object_r:sysfs_info:s0
