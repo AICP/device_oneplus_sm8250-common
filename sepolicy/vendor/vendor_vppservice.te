@@ -1,1 +1,1 @@
-allow vendor_vppservice public_adsprpcd_file:file { open read getattr };
+allow vendor_vppservice public_adsprpcd_file:file r_file_perms;
