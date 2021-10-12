@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52c62900_69fb1aec",
+        "filename": "sepolicy/vendor/platform_app.te",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2021-10-12T13:36:15Z",
+      "side": 1,
+      "message": "Use `r_file_perms` macro here?\n\nReference:\n1. https://android.googlesource.com/platform/external/sepolicy/+/193d129/global_macros#22\n2 Section (Macros) https://lineageos.org/engineering/HowTo-SELinux/",
+      "range": {
+        "startLine": 17,
+        "startChar": 48,
+        "endLine": 17,
+        "endChar": 65
+      },
+      "revId": "ddacfd2f02641e948a939467452322040f12d8bd",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
