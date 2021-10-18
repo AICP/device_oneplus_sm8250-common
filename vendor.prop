@@ -238,6 +238,9 @@ sys.vendor.shutdown.waittime=500
 # Telephony
 telephony.active_modems.max_count=2
 
+# System
+persist.sys.binary_xml=false
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
