@@ -32,4 +32,8 @@
     <!--<string name="config_batHealth">/sys/class/power_supply/bms/battery_health</string>-->
     <integer name="config_batDesCapDivider">1000</integer>
     <string name="config_batType">/sys/class/power_supply/bms/battery_type</string>
+
+    <!-- Whether to display touch sensitivity switch -->
+    <bool name="config_show_touch_sensitivity">true</bool>
+
 </resources>
