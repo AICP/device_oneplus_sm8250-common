@@ -36,4 +36,6 @@
     <!-- Whether to display touch sensitivity switch -->
     <bool name="config_show_touch_sensitivity">true</bool>
 
+    <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
 </resources>
