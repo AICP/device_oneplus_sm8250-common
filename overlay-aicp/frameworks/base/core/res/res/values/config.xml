@@ -63,4 +63,7 @@
         <item>restart_bootloader</item>
         <item>restart_fastboot</item>
      </string-array>
+
+     <!-- Flag indicating whether we should enable the adaptive sleep.-->
+     <bool name="config_adaptive_sleep_available">true</bool>
 </resources>
