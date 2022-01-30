@@ -51,7 +51,7 @@
     <integer name="config_deviceHardwareWakeKeys">64</integer> -->
 
     <!-- Allow devices override audio panel location to the left side -->
-    <bool name="config_audioPanelOnLeftSide">false</bool>
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
