@@ -35,6 +35,8 @@ import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
 import /vendor/etc/init/hw/init.qcom.factory.rc
 import /vendor/etc/init/hw/init.qcom.test.rc
+#PartsBin
+import /vendor/etc/init/hw/init.aicp-sm8250.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
