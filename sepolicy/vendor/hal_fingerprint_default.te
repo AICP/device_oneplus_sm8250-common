@@ -1,0 +1,2 @@
+allow hal_fingerprint_default vendor_sysfs_battery_supply:dir search;
+allow hal_fingerprint_default vendor_sysfs_battery_supply:file { read open };
