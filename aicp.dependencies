@@ -5,8 +5,8 @@
     "branch":      "s12.0"
   },
   {
-    "repository":  "LineageOS/android_kernel_oneplus_sm8250",
+    "repository":  "AICP/kernel_oneplus_sm8250",
     "target_path": "kernel/oneplus/sm8250",
-    "branch":      "lineage-18.1"
+    "branch":      "sm12.0"
   }
 ]
