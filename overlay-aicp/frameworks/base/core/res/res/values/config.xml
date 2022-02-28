@@ -70,7 +70,7 @@
      <!-- Whether device supports sensor based doze customizations -->
      <bool name="config_dozePulsePickup">true</bool>
      <bool name="config_dozePulseTilt">true</bool>
-     <bool name="config_dozePulseProximity">true</bool>
+     <!--<bool name="config_dozePulseProximity">true</bool>-->
 
     <!-- Names of the key handler class -->
     <string name="config_customKeyHandlerClass" translatable="false">com.aicp.device.KeyHandler</string>
