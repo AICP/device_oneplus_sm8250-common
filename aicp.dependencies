@@ -1,5 +1,10 @@
 [
   {
+    "repository":  "AICP/device_oneplus_settings",
+    "target_path": "device/oneplus/settings",
+    "branch":      "s12.0"
+  },
+  {
     "repository":  "AICP/device_oneplus_common",
     "target_path": "device/oneplus/common",
     "branch":      "s12.0"
