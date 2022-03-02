@@ -108,4 +108,14 @@
 
     <!-- Whether to force enable multi resolution configuration for camera -->
     <bool name="config_forceMultiResolution">true</bool>
+
+    <!-- Does device support power + vol down gesture -->
+    <bool name="config_volumeHushGestureEnabled">true</bool>
+
+    <!-- Control the behavior when the user presses the power and volume up buttons together.
+            0 - Nothing
+            1 - Mute toggle
+            2 - Global actions menu
+    -->
+    <integer name="config_keyChordPowerVolumeUp">1</integer>
 </resources>
