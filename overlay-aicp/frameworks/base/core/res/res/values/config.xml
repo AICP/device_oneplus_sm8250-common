@@ -108,4 +108,10 @@
 
     <!-- Whether to force enable multi resolution configuration for camera -->
     <bool name="config_forceMultiResolution">true</bool>
+
+    <!-- Does device support power + vol down gesture -->
+    <bool name="config_volumeHushGestureEnabled">true</bool>
+
+    <!-- Does device support long press power for launching assistant -->
+    <bool name="config_longPressOnPowerForAssistantSettingAvailable">false</bool>
 </resources>
