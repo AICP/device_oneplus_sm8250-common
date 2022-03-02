@@ -105,4 +105,10 @@
 
     <!-- Specify custom blanking delay of the display -->
     <integer name="config_screen_off_delay">0</integer>
+
+    <!-- Does device support power + vol down gesture -->
+    <bool name="config_volumeHushGestureEnabled">true</bool>
+
+    <!-- Does device support long press power for launching assistant -->
+    <bool name="config_longPressOnPowerForAssistantSettingAvailable">false</bool>
 </resources>
