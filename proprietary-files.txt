@@ -348,7 +348,7 @@ vendor/lib64/vendor.display.postproc@1.0.so
 
 # Dolby
 system/lib64/vendor.dolby.hardware.dms@2.0.so
--system_ext/priv-app/DaxUI/DaxUI.apk|e56a06ec269e9d194c86007b63cb8fe2e742e607
+-system_ext/priv-app/DaxUI/DaxUI.apk|e56a06ec269e9d194c86007b63cb8fe2e742e607;OVERRIDES=MusicFX
 -system_ext/priv-app/daxService/daxService.apk
 system_ext/etc/permissions/privapp-com.dolby.daxappui.xml
 system_ext/etc/permissions/privapp-com.dolby.daxservice.xml
