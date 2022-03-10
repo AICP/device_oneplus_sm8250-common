@@ -10,8 +10,15 @@
     "branch":      "s12.0"
   },
   {
+    "remote"      : "gitlab",
+    "repository"  : "hermesconrad/vendor/vendor_opcamera",
+    "target_path" : "vendor/opcamera",
+    "clone-depth" : "1",
+    "branch"      : "s12.0-oneplus8"
+  },
+  {
     "repository":  "AICP/kernel_oneplus_sm8250",
     "target_path": "kernel/oneplus/sm8250",
-    "branch":      "sm12.0"
+    "branch":      "s12.0"
   }
 ]
