@@ -12,6 +12,11 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
 camera.disable_zsl_mode=true
+persist.camera.assert.panic=true
+persist.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.oneplus.camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.oneplus.camera
+ro.opcamera.support=true
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.oneplus.camera
 
 # Charger
 ro.charger.disable_init_blank=true
@@ -46,6 +51,10 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
+
+# OnePlus
+ro.vendor.product.manufacturer.db=OP_PHONE
+ro.vendor.product.device.db=OP_DEVICE
 
 # Perf
 ro.vendor.qti.core_ctl_max_cpu=4
