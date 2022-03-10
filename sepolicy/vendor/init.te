@@ -1,0 +1,5 @@
+allow init sysfs_battery_supply:file setattr;
+allow init adsprpcd_file:file mounton;
+
+allow init op2_file:dir mounton;
+allow init sysfs_dm:file setattr;
