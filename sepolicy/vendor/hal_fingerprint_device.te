@@ -3,6 +3,10 @@ hal_client_domain(hal_fingerprint_default, hal_display)
 allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
 
 binder_call(hal_fingerprint_default, hal_perf_default)
+binder_call(hal_fingerprint_default, hal_display_default)
+
+# Allow hal_fingerprint_default to find hal_display_hwservice
+allow hal_fingerprint_default hal_display_hwservice:hwservice_manager find;
 
 allow hal_fingerprint_default vendor_hal_perf_hwservice:hwservice_manager find;
 
@@ -10,12 +14,21 @@ allow hal_fingerprint_default fingerprintd_device:chr_file rw_file_perms;
 allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
 allow hal_fingerprint_default vendor_qdsp_device:chr_file rw_file_perms;
 allow hal_fingerprint_default vendor_xdsp_device:chr_file rw_file_perms;
-
+allow hal_fingerprint_default vendor_sysfs_battery_supply:dir search;
+allow hal_fingerprint_default vendor_sysfs_battery_supply:file r_file_perms;
+allow hal_fingerprint_default public_adsprpcd_file:file { open read getattr };
 allow hal_fingerprint_default proc_touchpanel:dir search;
 allow hal_fingerprint_default proc_touchpanel:file rw_file_perms;
 
 allow hal_fingerprint_default sysfs_fod:file rw_file_perms;
+allow hal_fingerprint_default sysfs_livedisplay_tuneable:file { read write getattr open };
+allow hal_fingerprint_default sysfs:file write;
+allow hal_fingerprint_default mnt_vendor_file:dir search;
 
 get_prop(hal_fingerprint_default, vendor_adsprpc_prop)
 get_prop(hal_fingerprint_default, vendor_default_prop)
 set_prop(hal_fingerprint_default, vendor_fingerprint_prop)
+
+# Allow the fingerprint service to read & write to fpqrcode.
+r_dir_file(hal_fingerprint_default, vendor_persist_fingerprint_file)
+allow hal_fingerprint_default vendor_persist_fingerprint_file:file rw_file_perms;

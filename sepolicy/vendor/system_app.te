@@ -12,3 +12,10 @@ allow system_app proc_touchpanel:file rw_file_perms;
 # Access rules for reading battery health
 allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file r_file_perms;
+
+# Op Camera rules
+allow system_app hal_cameraHIDL_hwservice:hwservice_manager find;
+allow system_app proc_pagetypeinfo:file read;
+allow system_app sysfs_oem:file write;
+allow system_app sysfs_zram:dir search;
+binder_call(system_app, hal_cameraHIDL_default)
