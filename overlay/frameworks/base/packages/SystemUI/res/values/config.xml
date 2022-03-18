@@ -26,7 +26,4 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
-
-    <!-- Udfps vendor code -->
-    <integer name="config_udfps_vendor_code">42</integer>
 </resources>
