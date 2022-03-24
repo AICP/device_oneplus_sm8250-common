@@ -105,7 +105,7 @@ vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc
 vendor/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc
 vendor/etc/init/vl53l1.rc
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|e65e7c11be6df312a807d80b4d1fa65b33360d39
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|1ff5e9102a4eeb4442f4d89fe74bf19c93402d90|e65e7c11be6df312a807d80b4d1fa65b33360d39
 
 # CDSP
 vendor/bin/cdsprpcd
