@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48eca50c_c2545a11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-04-04T20:45:31Z",
+      "side": 1,
+      "message": "vendor_oneplus commit: https://gitlab.com/docHD/dochd-proprietary-vendor-oneplus/-/commit/ce98f536f4ad06346184d9f9ad1e30dc9e898c2c\n",
+      "revId": "55472d1000ac9834724094d16ecf61bd4605afcd",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
