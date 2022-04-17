@@ -216,6 +216,9 @@
 # AICP - PartsBin Force Game Mode
 /proc/touchpanel/force_game_switch_enable                                                                          u:object_r:proc_touchpanel:s0
 
+# AICP - PartsBin Force Game Mode
+/sys/kernel/fast_charge/force_fast_charge                                                                          u:object_r:sysfs_parts:s0
+
 # AICP - Vibrator
 /sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level                                              u:object_r:sysfs_leds:s0
 
