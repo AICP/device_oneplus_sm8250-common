@@ -27,3 +27,4 @@ type vendor_sysfs_video_call_on, fs_type, sysfs_type;
 
 # AICP
 type sysfs_info, fs_type, sysfs_type;
+type sysfs_parts, fs_type, sysfs_type;
