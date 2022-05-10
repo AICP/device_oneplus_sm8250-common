@@ -225,6 +225,8 @@ PRODUCT_PACKAGES += \
     init.color.rc \
     init.oem.sec.rc \
     init.oem_ftm.rc \
+    init.oplus.hw.rc \
+    init.oplus.hw.rc.recovery \
     init.oplus_chg.sh \
     init.qcom.class_core.sh \
     init.qcom.coex.sh \
