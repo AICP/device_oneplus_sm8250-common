@@ -16,6 +16,23 @@
       "message": "both device \u0026 vendor commits require https://gerrit.aicp-rom.com/c/AICP/frameworks_av/+/115339/1 too.",
       "revId": "3a04fad9815461affd472c9d75421af832268ab3",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d16ff19_1a5f8dc3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2022-05-21T20:53:16Z",
+      "side": 1,
+      "message": "doc, I meant the includes are already there in line 188. you doubled them with adding it. I know why, but doubling the href include made no sense in the two files. 🙈",
+      "revId": "3a04fad9815461affd472c9d75421af832268ab3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
