@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e4f2fc2_e939cad5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-05-21T20:15:57Z",
+      "side": 1,
+      "message": "both device \u0026 vendor commits require https://gerrit.aicp-rom.com/c/AICP/frameworks_av/+/115339/1 too.",
+      "revId": "3a04fad9815461affd472c9d75421af832268ab3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
