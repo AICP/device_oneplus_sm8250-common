@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68f99795_0e96964d",
+        "filename": "configs/media_codecs_kona.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2022-05-21T16:24:52Z",
+      "side": 1,
+      "message": "same as your addition?",
+      "revId": "bf75591c9c97191927623abcf01db73583a90f17",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
