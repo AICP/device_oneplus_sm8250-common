@@ -14,7 +14,7 @@
     "repository"  : "hermesconrad/vendor/vendor_opcamera",
     "target_path" : "vendor/opcamera",
     "clone-depth" : "1",
-    "branch"      : "s12.0-oneplus8"
+    "branch"      : "s12.1-oneplus8"
   },
   {
     "repository":  "AICP/kernel_oneplus_sm8250",
