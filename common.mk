@@ -404,10 +404,6 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
-# NFC (Android Beam)
-PRODUCT_COPY_FILES += \
-    vendor/aicp/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.nfc.beam.xml
-
 # OMX
 PRODUCT_PACKAGES += \
     init.qti.media.sh \
