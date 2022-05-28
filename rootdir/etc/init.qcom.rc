@@ -81,6 +81,16 @@ on init
 
     setprop vendor.boot.project_name ${ro.boot.project_name}
 
+    # Battery Health
+    chown system system /sys/class/power_supply/bms/charge_full_design
+    chmod 0644 /sys/class/power_supply/bms/charge_full_design
+    chown system system /sys/class/power_supply/bms/charge_full
+    chmod 0644 /sys/class/power_supply/bms/charge_full
+    chown system system /sys/class/power_supply/bms/cycle_counts
+    chmod 0644 /sys/class/power_supply/bms/cycle_counts
+    chown system system /sys/class/power_supply/bms/battery_h
+    chmod 0644 /sys/class/power_supply/bms/battery_h
+
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
