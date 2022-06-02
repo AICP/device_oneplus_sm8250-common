@@ -1,13 +1,11 @@
 [
   {
     "repository":  "AICP/device_oneplus_settings",
-    "target_path": "device/oneplus/settings",
-    "branch":      "s12.1"
+    "target_path": "device/oneplus/settings"
   },
   {
     "repository":  "AICP/device_oneplus_common",
-    "target_path": "device/oneplus/common",
-    "branch":      "s12.1"
+    "target_path": "device/oneplus/common"
   },
   {
     "remote"      : "gitlab",
@@ -18,7 +16,6 @@
   },
   {
     "repository":  "AICP/kernel_oneplus_sm8250",
-    "target_path": "kernel/oneplus/sm8250",
-    "branch":      "s12.1"
+    "target_path": "kernel/oneplus/sm8250"
   }
 ]
