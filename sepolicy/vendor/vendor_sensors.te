@@ -2,3 +2,5 @@ r_dir_file(vendor_sensors, sysfs_project_info)
 allow vendor_sensors oem_file:dir { search getattr read };
 allow vendor_sensors oem_file:file { read open map getattr };
 allow vendor_sensors mnt_vendor_file:file { getattr open read };
+r_dir_file(vendor_sensors, oem_file)
+allow vendor_sensors oem_file:file r_file_perms;
