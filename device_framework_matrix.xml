@@ -413,4 +413,12 @@
             <instance>cameraextensionservice</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.chgctrl</name>
+        <version>1.0</version>
+        <interface>
+            <name>IChargeControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
