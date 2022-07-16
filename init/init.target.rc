@@ -168,3 +168,15 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
 
 on property:vendor.dcvs.prop=1
    start dcvs-sh
+
+on property:ro.boot.prj_version=19805
+    setprop persist.radio.multisim.config dsds
+
+on property:ro.boot.prj_version=19811
+    setprop persist.radio.multisim.config dsds
+
+on property:ro.boot.prj_version=19821
+    setprop persist.radio.multisim.config dsds
+
+on property:ro.boot.prj_version=20828
+    setprop persist.radio.multisim.config dsds
