@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    KeyHandler \
+    OplusParts \
     tri-state-key-calibrate
 
 # APEX
