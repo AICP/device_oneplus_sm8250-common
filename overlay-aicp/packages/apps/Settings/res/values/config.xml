@@ -9,7 +9,8 @@
     <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 
     <!-- Battery Health -->
-    <bool name="config_supportBatteryHealth">true</bool>
+    <bool name="config_supportBatteryHealth">false</bool>
+    <string name="config_batChargeCycle">/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/battery/cycle_count</string>
     <string name="config_batHealthPercent">/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/battery/health</string>
 
     <!-- Whether to show min / max refresh rate preference in display settings -->
