@@ -5,18 +5,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Paths to the libraries that contain device specific key handlers -->
-    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system/system_ext/app/KeyHandler/KeyHandler.apk</item>
-        <item>/system/system_ext/priv-app/TouchGestures/TouchGestures.apk</item>
-    </string-array>
-
-    <!-- Names of the key handler classes -->
-    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>org.lineageos.settings.device.KeyHandler</item>
-        <item>com.android.touch.gestures.KeyHandler</item>
-    </string-array>
-
     <!-- Allow devices override audio panel location to the left side -->
     <bool name="config_audioPanelOnLeftSide">true</bool>
 
@@ -38,17 +26,23 @@
      <bool name="config_dozePulsePickup">true</bool>
      <bool name="config_dozePulseTilt">true</bool>
 
-    <!-- Names of the key handler class -->
-    <string name="config_customKeyHandlerClass" translatable="false">com.aicp.device.KeyHandler</string>
+    <!-- Paths to the libraries that contain device specific key handlers -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system/system_ext/priv-app/OplusParts/OplusParts.apk</item>
+        <item>/system/system_ext/priv-app/TouchGestures/TouchGestures.apk</item>
+    </string-array>
 
-    <!-- Paths to the library that contain device specific key handler -->
-    <string name="config_customKeyHandlerLib" translatable="false">/system/priv-app/PartsBin/PartsBin.apk</string>
+    <!-- Names of the key handler classes -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>com.aicp.oplus.OplusParts.KeyHandler</item>
+        <item>com.android.touch.gestures.KeyHandler</item>
+    </string-array>
 
     <!-- Whether device has physical alert slider.-->
     <bool name="config_hasAlertSlider">true</bool>
 
     <!-- Whether key handler sends intent when changing slider position-->
-    <string name="config_alertSliderIntent">com.aicp.device.UPDATE_SLIDER_POSITION</string>
+    <string name="config_alertSliderIntent">com.aicp.oplus.OplusParts.UPDATE_SLIDER_POSITION</string>
 
     <!-- The location of the devices physical tri state switch
          0: Left side
