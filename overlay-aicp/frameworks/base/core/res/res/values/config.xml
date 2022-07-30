@@ -87,4 +87,7 @@
 
     <!-- Default state for LiveDisplay -->
     <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Paths to OP warp charging status file -->
+    <string name="config_opWarpChargerStatusPaths" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
 </resources>
