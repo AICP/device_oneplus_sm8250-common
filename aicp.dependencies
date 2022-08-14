@@ -1,9 +1,5 @@
 [
   {
-    "repository":  "AICP/device_oneplus_settings",
-    "target_path": "device/oneplus/settings"
-  },
-  {
     "repository": "AICP/hardware_oplus",
     "target_path": "hardware/oplus"
   },
