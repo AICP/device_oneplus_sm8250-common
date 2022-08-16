@@ -24,4 +24,6 @@
         <item>@*android:string/status_bar_call_strength</item>
     </string-array>
 
+    <!-- Charging info current divider, if needed -->
+    <integer name="config_currentInfoDivider" translatable="false">1</integer>
 </resources>
