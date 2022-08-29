@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    KeyHandler \
+    OplusParts \
     tri-state-key-calibrate
 
 # APEX
@@ -311,7 +311,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aicp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
@@ -403,6 +403,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
+    TouchGestures \
     vendor.lineage.touch@1.0-service.oplus
 
 # Update engine

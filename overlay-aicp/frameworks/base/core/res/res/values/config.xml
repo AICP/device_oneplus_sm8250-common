@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2016 The CyanogenMod Project
+                   2017-2021 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Paths to the libraries that contain device specific key handlers -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system/system_ext/priv-app/OplusParts/OplusParts.apk</item>
+        <item>/system/system_ext/priv-app/TouchGestures/TouchGestures.apk</item>
+    </string-array>
+
+    <!-- Names of the key handler classes -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>com.aicp.oplus.OplusParts.KeyHandler</item>
+        <item>com.android.touch.gestures.KeyHandler</item>
+    </string-array>
+
+    <!-- Whether device has physical alert slider.-->
+    <bool name="config_hasAlertSlider">true</bool>
+
+    <!-- Whether key handler sends intent when changing slider position-->
+    <string name="config_alertSliderIntent">com.aicp.oplus.OplusParts.UPDATE_SLIDER_POSITION</string>
+
+    <!-- The location of the devices physical tri state switch
+         0: Left side
+         1: Right side -->
+    <integer name="config_alertSliderLocation">1</integer>
+
+    <!-- Control the behavior when the user presses the power and volume up buttons together.
+            0 - Nothing
+            1 - Mute toggle
+            2 - Global actions menu
+    -->
+    <integer name="config_keyChordPowerVolumeUp">1</integer>
+
+    <!-- If this is true, long press on power button will be available from the non-interactive state -->
+    <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+
+    <!-- Controls the navigation bar interaction mode:
+         0: 3 button mode (back, home, overview buttons)
+         1: 2 button mode (back, home buttons + swipe up for overview)
+         2: gestures only for back, home and overview -->
+    <integer name="config_navBarInteractionMode">2</integer>
+
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Paths to OP warp charging status file -->
+    <string name="config_opWarpChargerStatusPaths" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
+    <!-- Whether the device supports Smart Pixels
+    <bool name="config_supportSmartPixels">true</bool> -->
+</resources>
