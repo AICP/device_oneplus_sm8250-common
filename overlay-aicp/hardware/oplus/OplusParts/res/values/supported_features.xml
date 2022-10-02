@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Evolution X Project
+     Copyright (C) 2010 - 2022 AICP
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether device supports Power Efficient Workqueue -->
+    <bool name="config_deviceSupportsPowerEfficientWorkqueue">true</bool>
+</resources>
