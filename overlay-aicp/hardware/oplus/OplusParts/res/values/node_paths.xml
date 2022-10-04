@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Evolution X Project
+     Copyright (C) 2010 - 2022 AICP
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Power Efficient Workqueue sysfs node path, true, false -->
+    <string name="node_power_efficient_workqueue_mode_switch">/sys/module/workqueue/parameters/power_efficient</string>
+    <string name="node_power_efficient_workqueue_mode_switch_true">Y</string>
+    <string name="node_power_efficient_workqueue_mode_switch_false">N</string>
+</resources>
