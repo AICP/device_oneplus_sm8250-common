@@ -59,6 +59,9 @@
     <!-- Fingerprint from a certified device against current platform SPL level -->
     <string name="config_certifiedFingerprint" translatable="false">google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys</string>
 
+    <!-- Model from a certified device -->
+    <string name="config_certifiedModel" translatable="false">Pixel 2</string>
+
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
 
