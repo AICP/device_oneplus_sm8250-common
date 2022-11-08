@@ -1,10 +1,10 @@
 [
   {
-    "repository": "AICP/hardware_oplus",
+    "repository":  "AICP/hardware_oplus",
     "target_path": "hardware/oplus"
   },
   {
-    "repository": "AICP/kernel_oneplus_sm8250",
+    "repository":  "AICP/kernel_oneplus_sm8250",
     "target_path": "kernel/oneplus/sm8250"
   },
   {
@@ -13,5 +13,10 @@
     "target_path": "vendor/firmware",
     "clone-depth": "1",
     "branch":      "lineage-20"
+  },
+    "remote":      "gitlab",
+    "repository":  "hermesconrad/vendor/proprietary_vendor_ih8sn",
+    "target_path": "vendor/ih8sn",
+    "branch":      "t13.0"
   }
 ]
