@@ -62,11 +62,11 @@
     <!-- Model from a certified device -->
     <string name="config_certifiedModel" translatable="false">Pixel 2</string>
 
-    <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>
+    <!-- Pocket Lock
+    <bool name="config_pocketModeSupported">false</bool> -->
 
-    <!-- Defines custom Vendor sensor for pocket detection. -->
-    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
+    <!-- Defines custom Vendor sensor for pocket detection.
+    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>  -->
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
