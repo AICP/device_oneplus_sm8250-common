@@ -8,4 +8,7 @@
 <resources>
     <!-- Whether device supports Power Efficient Workqueue -->
     <bool name="config_deviceSupportsPowerEfficientWorkqueue">true</bool>
+
+    <!-- Whether device supports USB-OTG -->
+    <bool name="config_deviceSupportsOTG">true</bool>
 </resources>
