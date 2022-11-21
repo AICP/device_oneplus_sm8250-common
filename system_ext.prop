@@ -44,11 +44,5 @@ ril.subscription.types=NV,RUIM
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 
-# Surfaceflinger Blur options
-ro.launcher.blur.appLaunch=0
-ro.surface_flinger.supports_background_blur=1
-persist.sys.sf.disable_blurs=1
-ro.sf.blurs_are_expensive=1
-
 # Vendor
 ro.vendor.qti.va_aosp.support=1
