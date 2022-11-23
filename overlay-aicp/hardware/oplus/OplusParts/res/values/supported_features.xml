@@ -6,6 +6,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+
+    <!-- Whether device supports Kcal -->
+    <bool name="config_deviceSupportsKcal">true</bool>
+
     <!-- Whether device supports Power Efficient Workqueue -->
     <bool name="config_deviceSupportsPowerEfficientWorkqueue">true</bool>
 
