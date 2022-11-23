@@ -6,6 +6,28 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+
+    <!-- Kcal RED sysfs node path -->
+    <string name="node_red_preference">/sys/module/msm_drm/parameters/kcal_red</string>
+
+    <!-- Kcal GREEN sysfs node path -->
+    <string name="node_green_preference">/sys/module/msm_drm/parameters/kcal_green</string>
+
+    <!-- Kcal BLUE sysfs node path -->
+    <string name="node_blue_preference">/sys/module/msm_drm/parameters/kcal_blue</string>
+
+    <!-- Kcal SATURATION sysfs node path -->
+    <string name="node_saturation_preference">/sys/module/msm_drm/parameters/kcal_sat</string>
+
+    <!-- Kcal CONTRAST sysfs node path -->
+    <string name="node_contrast_preference">/sys/module/msm_drm/parameters/kcal_cont</string>
+
+    <!-- Kcal HUE sysfs node path -->
+    <string name="node_hue_preference">/sys/module/msm_drm/parameters/kcal_hue</string>
+
+    <!-- Kcal VALUE sysfs node path -->
+    <string name="node_value_preference">/sys/module/msm_drm/parameters/kcal_val</string>
+
     <!-- Power Efficient Workqueue sysfs node path, true, false -->
     <string name="node_power_efficient_workqueue_mode_switch">/sys/module/workqueue/parameters/power_efficient</string>
     <string name="node_power_efficient_workqueue_mode_switch_true">Y</string>
