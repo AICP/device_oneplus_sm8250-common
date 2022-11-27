@@ -32,9 +32,4 @@
     <string name="node_power_efficient_workqueue_mode_switch">/sys/module/workqueue/parameters/power_efficient</string>
     <string name="node_power_efficient_workqueue_mode_switch_true">Y</string>
     <string name="node_power_efficient_workqueue_mode_switch_false">N</string>
-
-    <!-- USB-OTG sysfs node path, true, false -->
-    <string name="node_otg_mode_switch">/sys/devices/virtual/oplus_chg/usb/otg_switch</string>
-    <string name="node_otg_mode_switch_true">1</string>
-    <string name="node_otg_mode_switch_false">0</string>
 </resources>
