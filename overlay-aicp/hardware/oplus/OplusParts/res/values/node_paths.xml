@@ -32,4 +32,12 @@
     <string name="node_power_efficient_workqueue_mode_switch">/sys/module/workqueue/parameters/power_efficient</string>
     <string name="node_power_efficient_workqueue_mode_switch_true">Y</string>
     <string name="node_power_efficient_workqueue_mode_switch_false">N</string>
+
+    <!-- System vibration sysfs node path -->
+    <string name="node_vibrator_strength_preference">/sys/devices/platform/soc/a8c000.i2c/i2c-6/6-005a/leds/vibrator/level</string>
+
+    <!-- USB 2.0 Force fastcharge sysfs node path, true, false -->
+    <string name="node_usb2_fast_charge_mode_switch">/sys/kernel/fast_charge/force_fast_charge</string>
+    <string name="node_usb2_fast_charge_mode_switch_true">1</string>
+    <string name="node_usb2_fast_charge_mode_switch_false">0</string>
 </resources>

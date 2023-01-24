@@ -261,7 +261,7 @@ on boot
     chown system system /proc/wireless/quiet_mode
     chmod 0666 /proc/wireless/quiet_mode
 
-    # Vibration intensity
+    # Vibration Intensity
     chown system system /sys/devices/platform/soc/a8c000.i2c/i2c-6/6-005a/leds/vibrator/level
     chmod 0666 /sys/devices/platform/soc/a8c000.i2c/i2c-6/6-005a/leds/vibrator/level
 
