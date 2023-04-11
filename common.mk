@@ -371,8 +371,7 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/oplus \
-    vendor/ih8sn
+    hardware/oplus
 
 # Telephony
 PRODUCT_PACKAGES += \

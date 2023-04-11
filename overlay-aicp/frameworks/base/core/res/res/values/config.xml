@@ -57,8 +57,13 @@
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
-    <!-- Build fingerprint from a GMS certified device -->
-    <string name="config_certifiedFingerprint" translatable="false">google/angler/angler:6.0/MDB08L/2343525:user/release-keys</string>
+    <!-- Build properties from a GMS certified device against current platform SPL level -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+        <item>marlin</item>   <!-- Build.DEVICE -->
+        <item>marlin</item>   <!-- Build.PRODUCT -->
+        <item>Pixel XL</item> <!-- Build.MODEL -->
+        <item>google/marlin/marlin:7.1.2/NJH47F/4146041:user/release-keys</item> <!-- Build.FINGERPRINT -->
+    </string-array>
 
     <!-- Pocket Lock
     <bool name="config_pocketModeSupported">false</bool> -->
