@@ -13,11 +13,5 @@
     "target_path": "vendor/firmware",
     "clone-depth": "1",
     "branch":      "lineage-20"
-  },
-  {
-    "remote":      "gitlab",
-    "repository":  "hermesconrad/vendor/proprietary_vendor_ih8sn",
-    "target_path": "vendor/ih8sn",
-    "branch":      "t13.0"
   }
 ]
