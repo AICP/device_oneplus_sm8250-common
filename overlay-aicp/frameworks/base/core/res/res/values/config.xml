@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2025 The Android Ice Cold Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether device has Vooc charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
+
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
+    <!-- Update battery info every second when device is charging -->
+    <bool name="config_alternateFastchargeInfoUpdate">true</bool>
+</resources>
