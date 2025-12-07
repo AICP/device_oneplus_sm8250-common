@@ -220,6 +220,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_performance_kona_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_kona.xml \
     $(LOCAL_PATH)/media/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/video_system_specs.json
 
+$(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
@@ -324,6 +326,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml
 
 $(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
+
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-service.qti
 
 # Touch
 PRODUCT_PACKAGES += \
